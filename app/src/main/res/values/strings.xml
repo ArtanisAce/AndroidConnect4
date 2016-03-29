@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">proyecto1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_initial">Initial</string>
+        <string name="aboutMessage">Conecta 4 es un juego de dos jugadores, humano
+        contra la máquina. Cada jugador ha de colocar una ficha en una matriz
+        de 6 x 7 posiciones. Solo se puede colocar ficha en la posición libre mas baja
+        de cada columna. Gana el jugador que primero alinee cuatro fichas en fila,
+        columna o diagonal.</string>
+</resources>

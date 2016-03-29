@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Datos personales">
+        <EditTextPreference
+            android:key="playerName"
+            android:title="Nombre del jugador"
+            android:summary="Introduzca el nombre del jugador" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ajustes del juego">
+        <ListPreference
+            android:key="color_fichas"
+            android:title="Color de las fichas"
+            android:summary="Pulse para mostrar la lista"
+            android:entries="@array/fichas"
+            android:entryValues="@array/codigosFichas"
+            android:dialogTitle="Escoja el tipo de ficha"/>
+        <CheckBoxPreference
+            android:key="music"
+            android:title="Música"
+            android:summary="Marque para activar la musica"/>
+    </PreferenceCategory>
+</PreferenceScreen>
